@@ -1,0 +1,131 @@
+(footprint "SMLVT3V3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "70ae3850-9833-4905-8a01-1d156c37c067")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMLVT3V3"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "10278818-0d2b-4c1c-bda3-c8748b179b9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SMLVT3V3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b7db099-1c4e-431e-9635-d060a22a17e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0452cfdb-1da7-4b0b-8a6f-1e915d163939")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b78faa2-e492-4bce-b674-120f654d8ad7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -3.556 0)
+		(end -3.302 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "0746eef4-7682-4a98-953e-d51bba9fa37f")
+	)
+	(fp_rect
+		(start -4.064 -2.54)
+		(end 3.81 2.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f1e734fd-8a7a-4bac-8a38-6aa14a1a8168")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0a3d616c-5673-40a8-a2f8-298cf4fccdd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.11 0)
+		(size 1.62 2.18)
+		(layers "F.Cu" "F.Paste" "F.Mask" "Dwgs.User")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "9847c57a-169a-4d13-92cb-a507e079c101")
+	)
+	(pad "2" smd roundrect
+		(at 2.11 0)
+		(size 1.62 2.18)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c6b7b2a0-7f74-4ddb-9df2-cbf7e5953f6a")
+	)
+	(model "C:/Dev/STM32-Dev-Board-HW/stm32-dev-board-hw/models/SMLVT3V3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
